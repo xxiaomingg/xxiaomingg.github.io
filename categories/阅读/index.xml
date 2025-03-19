@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>终身监禁</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on 终身监禁</description>
+    <title>阅读 on 终身监禁</title>
+    <link>http://localhost:1313/categories/%E9%98%85%E8%AF%BB/</link>
+    <description>Recent content in 阅读 on 终身监禁</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 18 Mar 2025 21:38:04 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>芭乐</title>
       <link>http://localhost:1313/posts/%E8%8A%AD%E4%B9%90/</link>
       <pubDate>Tue, 18 Mar 2025 21:38:04 -0400</pubDate>
       <guid>http://localhost:1313/posts/%E8%8A%AD%E4%B9%90/</guid>
       <description>前天上班的时候，同事递过来一个芭乐——当时我还不认识芭乐，所以——同事递过来一个青色的小果子，和鸡蛋差不多大，形状有点像枇杷。我说，这是什么？同事说，是guava。</description>
-    </item>
-    <item>
-      <title>关于</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 18 Mar 2025 21:22:08 -0400</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;这里是查查写blog的地方&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
