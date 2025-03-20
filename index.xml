@@ -27,7 +27,7 @@
       <link>https://xxiaomingg.github.io/about/</link>
       <pubDate>Tue, 18 Mar 2025 21:22:08 -0400</pubDate>
       <guid>https://xxiaomingg.github.io/about/</guid>
-      <description>&lt;p&gt;这里是查查写blog的地方&lt;/p&gt;</description>
+      <description>&lt;p&gt;这里是查查写blog的地方&#xA;↑&#xA;这行字是为了测试&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
