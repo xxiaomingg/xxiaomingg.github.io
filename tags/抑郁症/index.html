@@ -8,7 +8,7 @@
 	
 	
 	
-	<title>Tags ｜ 终身监禁</title>
+	<title>抑郁症 ｜ 终身监禁</title>
 	
     
     
@@ -21,7 +21,7 @@
     
 
 	
-	<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="终身监禁" />
+	<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/%E6%8A%91%E9%83%81%E7%97%87/index.xml" title="终身监禁" />
     
     
     <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" />
@@ -84,7 +84,7 @@
             <div class="my_socials">
                 
                 <a href="
-                /tags/index.xml
+                /tags/%E6%8A%91%E9%83%81%E7%97%87/index.xml
                 " type="application/rss+xml" title="rss" target="_blank"><i
                         class="ri-rss-fill"></i></a>
             </div>
@@ -92,40 +92,72 @@
     </div>
 </div>
         <div class="content">
-            <div class="page_tags">
-                <ul>
+            
+            <div class="language-selector">
+                <span class="lang-link" data-lang="en" onclick="filterByLanguage('en')">EN</span>
+                <span class="lang-separator">|</span>
+                <span class="lang-link" data-lang="zh" onclick="filterByLanguage('zh')">中文</span>
+            </div>
+
+            <div class="list_with_title">
+                
+                <div class="listing_title">2025</div>
+                <div class="listing">
                     
+                    <div class="listing_item" data-lang="en">
+                        <div class="listing_post animate__animated animate__fadeInDown">
+                            <a href="/posts/%E6%98%A5%E5%A4%A9%E5%83%8F%E9%87%8E%E7%8B%97%E4%B8%80%E6%A0%B7/">春天像野狗一样</a>
+                            <div class="post_time"><span class="date">03-19</span></div>
+                        </div>
+                    </div>
                     
-                    
-                    <li>
-                        <a href="http://localhost:1313/tags/%E6%8A%91%E9%83%81%E7%97%87">
-                            抑郁症 <span class="terms_count">1</span>
-                        </a>
-                    </li>
-                    
-                    
-                    
-                    <li>
-                        <a href="http://localhost:1313/tags/%E6%98%A5%E5%A4%A9">
-                            春天 <span class="terms_count">1</span>
-                        </a>
-                    </li>
-                    
-                    
-                    
-                    <li>
-                        <a href="http://localhost:1313/tags/%E7%B2%BE%E7%A5%9E%E7%96%BE%E7%97%85">
-                            精神疾病 <span class="terms_count">1</span>
-                        </a>
-                    </li>
-                    
-                    
-                </ul>
+                </div>
+                
             </div>
             <div class="pagination"></div>
         </div>
         <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
+
+    
+    <script>
+    let currentLang = null;
+
+    function filterByLanguage(lang) {
+        const posts = document.querySelectorAll('.listing_item');
+        const langLinks = document.querySelectorAll('.lang-link');
+        
+        
+        if (currentLang === lang) {
+            posts.forEach(post => post.style.display = '');
+            langLinks.forEach(link => link.classList.remove('active'));
+            currentLang = null;
+            return;
+        }
+
+        
+        posts.forEach(post => {
+            if (post.getAttribute('data-lang') === lang) {
+                post.style.display = '';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+
+        
+        langLinks.forEach(link => {
+            if (link.getAttribute('data-lang') === lang) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+        
+        currentLang = lang;
+    }
+    </script>
+
+
     <footer class="footer">
     <div class="powered_by">
         <a href="https://varkai.com">Theme - zozo </a> ｜
