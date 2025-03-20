@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://xxiaomingg.github.io/categories/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://xxiaomingg.github.io/posts/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://xxiaomingg.github.io/tags/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8A%91%E9%83%81%E7%97%87/</loc>
+    <loc>https://xxiaomingg.github.io/tags/%E6%8A%91%E9%83%81%E7%97%87/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%98%A5%E5%A4%A9/</loc>
+    <loc>https://xxiaomingg.github.io/tags/%E6%98%A5%E5%A4%A9/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E6%98%A5%E5%A4%A9%E5%83%8F%E9%87%8E%E7%8B%97%E4%B8%80%E6%A0%B7/</loc>
+    <loc>https://xxiaomingg.github.io/posts/%E6%98%A5%E5%A4%A9%E5%83%8F%E9%87%8E%E7%8B%97%E4%B8%80%E6%A0%B7/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://xxiaomingg.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%B2%BE%E7%A5%9E%E7%96%BE%E7%97%85/</loc>
+    <loc>https://xxiaomingg.github.io/tags/%E7%B2%BE%E7%A5%9E%E7%96%BE%E7%97%85/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://xxiaomingg.github.io/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E8%8A%AD%E4%B9%90/</loc>
+    <loc>https://xxiaomingg.github.io/posts/%E8%8A%AD%E4%B9%90/</loc>
     <lastmod>2025-03-18T21:38:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://xxiaomingg.github.io/about/</loc>
     <lastmod>2025-03-18T21:22:08-04:00</lastmod>
   </url>
 </urlset>
