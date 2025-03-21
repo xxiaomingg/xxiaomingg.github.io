@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag 1 on 终身监禁</title>
-    <link>http://localhost:1313/tags/tag-1/</link>
+    <link>http://ssuchaa.xyz/tags/tag-1/</link>
     <description>Recent content in Tag 1 on 终身监禁</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Mar 2025 21:29:25 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tag-1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Mar 2025 11:27:09 -0400</lastBuildDate>
+    <atom:link href="http://ssuchaa.xyz/tags/tag-1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Tue, 18 Mar 2025 21:29:25 -0400</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;!-- more --&gt;&#xA;&lt;p&gt;test&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>芭乐</title>
-      <link>http://localhost:1313/posts/%E8%8A%AD%E4%B9%90/</link>
-      <pubDate>Mon, 17 Mar 2025 13:36:51 -0400</pubDate>
-      <guid>http://localhost:1313/posts/%E8%8A%AD%E4%B9%90/</guid>
-      <description>为什么不显示呢</description>
+      <link>http://ssuchaa.xyz/posts/test/</link>
+      <pubDate>Fri, 21 Mar 2025 11:27:09 -0400</pubDate>
+      <guid>http://ssuchaa.xyz/posts/test/</guid>
+      <description>&lt;!-- more --&gt;&#xA;&lt;h1 id=&#34;这是一个h1&#34;&gt;这是一个h1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;这是一个h2&#34;&gt;这是一个h2&lt;/h2&gt;&#xA;&lt;h2 id=&#34;这是一个h2超链接&#34;&gt;&lt;a href=&#34;xxiaomingg.github.io&#34;&gt;这是一个h2超链接&lt;/a&gt;&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

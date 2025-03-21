@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 终身监禁</title>
-    <link>https://xxiaomingg.github.io/categories/</link>
+    <link>http://ssuchaa.xyz/categories/</link>
     <description>Recent content in Categories on 终身监禁</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Mar 2025 12:03:40 -0400</lastBuildDate>
-    <atom:link href="https://xxiaomingg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Mar 2025 11:27:09 -0400</lastBuildDate>
+    <atom:link href="http://ssuchaa.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活</title>
-      <link>https://xxiaomingg.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
-      <pubDate>Wed, 19 Mar 2025 12:03:40 -0400</pubDate>
-      <guid>https://xxiaomingg.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <link>http://ssuchaa.xyz/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Fri, 21 Mar 2025 11:27:09 -0400</pubDate>
+      <guid>http://ssuchaa.xyz/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>阅读</title>
+      <link>http://ssuchaa.xyz/categories/%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Fri, 21 Mar 2025 11:27:09 -0400</pubDate>
+      <guid>http://ssuchaa.xyz/categories/%E9%98%85%E8%AF%BB/</guid>
       <description></description>
     </item>
   </channel>

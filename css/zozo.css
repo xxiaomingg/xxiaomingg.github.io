@@ -5,6 +5,23 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+/**
+   * !!!!customized font by sucha start
+   */
+
+  @font-face {
+    font-family: 'Torono Kugel Serif';
+    src: url('/fonts/Torono Kugel Serif.otf') format('otf');
+  }
+  @font-face {
+    font-family: 'I-Ming-5-10-2';
+    src: url('/fonts/I-Ming-5-10-2.ttf') format('ttf');
+  }
+
+  /**
+   * !!!!customized font by sucha end
+   */
+
 html::-webkit-scrollbar {
   width: 13px;
 }
@@ -59,6 +76,10 @@ h4,
 h5,
 h6 {
   text-rendering: optimizeLegibility;
+}
+
+h2 {
+  font-family: 'I-Ming-5-10-2';
 }
 
 hr {
@@ -144,6 +165,7 @@ hr {
 .header .site_title_container h1 {
   line-height: 1;
   margin: 0;
+  font-family: 'Torono Kugel Serif'; /* !!!! customized by sucha */
 }
 
 .header .site_title_container a {
