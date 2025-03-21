@@ -12,6 +12,23 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
+
+  /**
+   * !!!!customized font by sucha start
+   */
+
+  @font-face {
+    font-family: 'Torono Kugel Serif';
+    src: url('/fonts/Torono Kugel Serif.otf') format('otf');
+  }
+  @font-face {
+    font-family: 'I-Ming-5-10-2';
+    src: url('/fonts/I-Ming-5-10-2.ttf') format('ttf');
+  }
+
+  /**
+   * !!!!customized font by sucha end
+   */
   
   /* Sections
      ========================================================================== */
@@ -39,8 +56,19 @@
   
   h1 {
     font-size: 2em;
+    font-family: 'Torono Kugel Serif'; /* !!!! customized by sucha */ 
     margin: 0.67em 0;
   }
+
+  /**
+   * !!!!customized font by sucha start
+   */
+  h2 {
+    font-family: 'I-Ming-5-10-2';
+  }
+  /**
+   * !!!!customized font by sucha end
+   */
   
   /* Grouping content
      ========================================================================== */
