@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag 2 on 终身监禁</title>
+    <title>Tag 2 on 終身監禁</title>
     <link>http://ssuchaa.xyz/tags/tag-2/</link>
-    <description>Recent content in Tag 2 on 终身监禁</description>
+    <description>Recent content in Tag 2 on 終身監禁</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Mar 2025 11:27:09 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 18:56:38 -0400</lastBuildDate>
     <atom:link href="http://ssuchaa.xyz/tags/tag-2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://ssuchaa.xyz/posts/test/</link>
-      <pubDate>Fri, 21 Mar 2025 11:27:09 -0400</pubDate>
-      <guid>http://ssuchaa.xyz/posts/test/</guid>
-      <description>&lt;!-- more --&gt;&#xA;&lt;h1 id=&#34;这是一个h1&#34;&gt;这是一个h1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;这是一个h2&#34;&gt;这是一个h2&lt;/h2&gt;&#xA;&lt;h2 id=&#34;这是一个h2超链接&#34;&gt;&lt;a href=&#34;xxiaomingg.github.io&#34;&gt;这是一个h2超链接&lt;/a&gt;&lt;/h2&gt;</description>
+      <title>Codetest</title>
+      <link>http://ssuchaa.xyz/posts/codetest/</link>
+      <pubDate>Sun, 23 Mar 2025 18:56:38 -0400</pubDate>
+      <guid>http://ssuchaa.xyz/posts/codetest/</guid>
+      <description>&lt;!-- more --&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;199&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#99f&#34;&gt;@font&lt;/span&gt;&lt;span style=&#34;color:#555&#34;&gt;-&lt;/span&gt;face {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;200&lt;/span&gt;&lt;span&gt;    font&lt;span style=&#34;color:#555&#34;&gt;-&lt;/span&gt;family: &lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;ToronoKugelSerif&amp;#39;&lt;/span&gt;; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;201&lt;/span&gt;&lt;span&gt;    src: url(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;/fonts/ToronoKugelSerif.otf&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#366&#34;&gt;format&lt;/span&gt;(&lt;span style=&#34;color:#c30&#34;&gt;&amp;#39;opentype&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;202&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

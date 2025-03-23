@@ -5,6 +5,17 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+/* sucha custom css */
+@font-face {
+    font-family: 'ToronoKugelSerif'; 
+    src: url('/fonts/ToronoKugelSerif.otf') format('opentype');
+}
+@font-face {
+    font-family: 'I-Ming-5-10-2'; 
+    src: url('/fonts/I-Ming-5-10-2.ttf') format('truetype');
+}
+/* sucha custom css */
+
 html::-webkit-scrollbar {
   width: 13px;
 }
@@ -128,6 +139,11 @@ hr {
   white-space: nowrap;
   padding: 10px;
   font-size: 0.9rem;
+  color: #A07AFF; /* sucha custom css */
+}
+
+.nav_container .site_nav a:hover {
+  color: #94DB5E; /* sucha custom css */
 }
 
 .header {
@@ -142,6 +158,7 @@ hr {
 }
 
 .header .site_title_container h1 {
+  font-family: 'ToronoKugelSerif'; /* sucha custom css */
   line-height: 1;
   margin: 0;
 }
@@ -157,7 +174,7 @@ hr {
   width: 65px;
   letter-spacing: 2px;
   line-height: 1.2;
-  color: #000000;
+  color: #94DB5E;  /* sucha custom css */
   font-weight: 300;
 }
 
@@ -166,7 +183,7 @@ hr {
 }
 
 .header .site_title_container .site_title a:hover {
-  color: #666666;
+  color: #A07AFF; /* sucha custom css */
 }
 
 .header .site_title_container .description {
@@ -220,9 +237,13 @@ hr {
 .post .post_title a {
   text-decoration: none;
   letter-spacing: 1px;
-  color: #1f1f1f;
+  color: #94DB5E;  /* sucha custom css */
   font-size: 1.5rem;
   line-height: 28px;
+}
+
+.post .post_title a:hover {
+  color: #A07AFF; /* sucha custom css */
 }
 
 .post .post_title span {
@@ -235,9 +256,34 @@ hr {
 }
 
 .post .post_detail_title h2 {
+  font-family: 'I-Ming-5-10-2'; /* sucha custom css */
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+/* sucha custom css block starts */
+.post .post_categories {
+    max-width: 100%;
+    height: 25px;
+}
+.post .post_categories .meta {
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.post .post_categories .meta .categories a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  background-color: #A07AFF;
+  color: white; 
+}
+
+.post .post_categories .meta .categories a:hover {
+  background-color: transparent;
+  color: #A07AFF;
+}
+/* sucha custom css block ends*/
 
 .post .list p {
   padding-bottom: 0 !important;
@@ -257,11 +303,11 @@ hr {
 .post .post_content a {
   text-decoration: none;
   letter-spacing: 1px;
-  color: #e42b2b;
+  color: #A07AFF; /* sucha custom css */
 }
 
 .post .post_content a:hover {
-  color: #8e0000;
+  color: #94DB5E;  /* sucha custom css */
 }
 
 .post .post_footer {
@@ -290,12 +336,13 @@ hr {
 
 .post .post_footer .meta .tags a {
   text-decoration: none;
-  color: #bbbbbb;
+  color: #94DB5E;  /* sucha custom css */
   padding-right: 6px;
 }
 
 .post .post_footer .meta .tags a:hover {
-  color: #1f1f1f;
+  background-color: #A07AFF; /* sucha custom css */
+  color: white; /* sucha custom css */
 }
 
 .page_tags {
