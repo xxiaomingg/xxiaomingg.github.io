@@ -226,6 +226,7 @@ hr {
 }
 
 .post .post_title h2 {
+  font-family: 'I-Ming-5-10-2'; /* sucha custom css */
   letter-spacing: 1px;
   font-size: 1.4rem;
   line-height: 1;
@@ -246,9 +247,13 @@ hr {
   color: #A07AFF; /* sucha custom css */
 }
 
+.post .post_title .date {
+    margin-top: 7px; /* sucha custom css */
+}
+
 .post .post_title span {
   color: rgba(0, 0, 0, 0.44);
-  font-size: 14px;
+  font-size: 12px; /* sucha custom css */
 }
 
 .post .post_title span.date {
@@ -266,12 +271,9 @@ hr {
     max-width: 100%;
     height: 25px;
 }
-.post .post_categories .meta {
-  padding: 0 10px;
-  font-size: 13px;
-}
 
 .post .post_categories .meta .categories a {
+  font-size: 13px;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
@@ -284,6 +286,8 @@ hr {
   color: #A07AFF;
 }
 /* sucha custom css block ends*/
+
+
 
 .post .list p {
   padding-bottom: 0 !important;
