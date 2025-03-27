@@ -69,6 +69,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "I-Ming-5-10-2"; /* sucha custom css */
   text-rendering: optimizeLegibility;
 }
 
@@ -299,15 +300,16 @@ hr {
 }
 
 .post .post_content p {
-  line-height: 2em;
+  line-height: 1.6em;
   letter-spacing: 0.2px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .post .post_content a {
   text-decoration: none;
   letter-spacing: 1px;
   color: #A07AFF; /* sucha custom css */
+  font-weight: bold; /* sucha custom css */
 }
 
 .post .post_content a:hover {
@@ -427,6 +429,16 @@ hr {
   font-weight: 400;
 }
 
+/* sucha custom css */
+.footer .footer-builddate {
+  padding-bottom: 5px;
+  color: #9f9f9f;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/* sucha custom css */
+
 /*for archive*/
 .list_with_title {
   font-size: 14px;
@@ -545,6 +557,7 @@ hr {
 .markdown h6 {
   margin: 20px 0 20px 0;
   color: #000000;
+  font-family: "I-Ming-5-10-2"; /* sucha custom css */
 }
 
 .markdown h1 {

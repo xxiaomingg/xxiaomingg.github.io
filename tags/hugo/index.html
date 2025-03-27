@@ -21,12 +21,11 @@
 	
 	
 	
-	<title>关于 ｜ 終身監禁</title>
+	<title>Hugo ｜ 終身監禁</title>
 	
     
     
-    <meta name="description" content="一个网站没有关于页面就好像一个人没有脸一样，但关于我这个人，实在是没什么想说的。怎样介绍自己……让我想想……等我想出来我会来写上的。
-" />
+    <meta name="description" content="Sucha&#39;s blog | Life Imprisonment" />
     
 
     
@@ -35,6 +34,8 @@
     
 
 	
+	<link rel="alternate" type="application/rss+xml" href="http://ssuchaa.xyz/tags/hugo/index.xml" title="終身監禁" />
+    
     
     <link rel="shortcut icon" href="http://ssuchaa.xyz/images/favicon.ico" />
 
@@ -101,7 +102,7 @@
             <div class="my_socials">
                 
                 <a href="
-                
+                /tags/hugo/index.xml
                 " type="application/rss+xml" title="rss" target="_blank"><i
                         class="ri-rss-fill"></i></a>
             </div>
@@ -109,41 +110,72 @@
     </div>
 </div>
         <div class="content">
-            <div class="post_page">
-                <div class="post animate__animated animate__fadeInDown">
-                    <div class="post_title post_detail_title">
-                        <h2><a href='/about/'>关于</a></h2>
-                        
-                        <div class="post_categories">
-                            <div class="meta">
-                                
-                            </div>
-                        </div>
-                        
-                        <div class="date">
-                        <span class="date">2025.03.18</span>
-                        
-                        
-                        <span>&nbsp·&nbsp
-                                <span id="busuanzi_container_page_pv">本文阅读量<span id="busuanzi_value_page_pv"></span>次</span>
-                            </span>
-                        
+            
+            <div class="language-selector">
+                <span class="lang-link" data-lang="en" onclick="filterByLanguage('en')">EN</span>
+                <span class="lang-separator">|</span>
+                <span class="lang-link" data-lang="zh" onclick="filterByLanguage('zh')">中文</span>
+            </div>
+
+            <div class="list_with_title">
+                
+                <div class="listing_title">2025</div>
+                <div class="listing">
+                    
+                    <div class="listing_item" data-lang="en">
+                        <div class="listing_post animate__animated animate__fadeInDown">
+                            <a href="/posts/%E6%88%91%E6%B0%B8%E8%BF%9C%E8%AE%A8%E5%8E%8C%E6%9C%BA%E5%99%A8%E8%AF%AD%E8%A8%80/">我永远讨厌机器语言</a>
+                            <div class="post_time"><span class="date">03-26</span></div>
                         </div>
                     </div>
                     
-                    <div class="post_content markdown"><p>一个网站没有关于页面就好像一个人没有脸一样，但关于我这个人，实在是没什么想说的。怎样介绍自己……让我想想……等我想出来我会来写上的。</p>
-</div>
-                    <div class="post_footer">
-                        
-                    </div>
                 </div>
                 
-
-                
             </div>
+            <div class="pagination"></div>
         </div>
+        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
-    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+
+    
+    <script>
+    let currentLang = null;
+
+    function filterByLanguage(lang) {
+        const posts = document.querySelectorAll('.listing_item');
+        const langLinks = document.querySelectorAll('.lang-link');
+        
+        
+        if (currentLang === lang) {
+            posts.forEach(post => post.style.display = '');
+            langLinks.forEach(link => link.classList.remove('active'));
+            currentLang = null;
+            return;
+        }
+
+        
+        posts.forEach(post => {
+            if (post.getAttribute('data-lang') === lang) {
+                post.style.display = '';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+
+        
+        langLinks.forEach(link => {
+            if (link.getAttribute('data-lang') === lang) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+        
+        currentLang = lang;
+    }
+    </script>
+
+
     <footer class="footer">
     <div class="powered_by">
         <a href="https://varkai.com">Theme - zozo </a> ｜
@@ -250,11 +282,6 @@
 
 
 
-    
-    
-    
 </body>
-
-
 
 </html>

@@ -25,7 +25,7 @@
 	
     
     
-    <meta name="description" content="Sucha&#39;s blog" />
+    <meta name="description" content="Sucha&#39;s blog | Life Imprisonment" />
     
 
     
@@ -185,8 +185,42 @@
     </div>
 
     <div class="footer_slogan">
-        <span>Sucha&#39;s blog</span>
+        <span>Sucha&#39;s blog | Life Imprisonment</span>
     </div>
+    
+
+    
+    <div class="footer-builddate">
+        <div>© 2025 - <span id="year"></span></div>
+        <div>网站已经运行 <span id="days">0</span></div>
+    </div>
+    
+    <script>
+      var s0 = '2025-03-26';
+      s1 = new Date(s0.replace(/-/g, "/"));
+      s2 = new Date();
+      var days = s2.getTime() - s1.getTime();
+
+      var date = new Date;
+      var year = date.getFullYear();
+      document.getElementById('year').innerHTML = year;
+
+      var BootDate = new Date("2025-03-26");
+      function ShowRunTime(id) {
+        var NowDate = new Date();
+        var RunDateM = parseInt(NowDate - BootDate);
+        var RunDays = Math.floor(RunDateM / (24 * 3600 * 1000));
+        var RunHours = Math.floor(RunDateM % (24 * 3600 * 1000) / (3600 * 1000));
+        var RunMinutes = Math.floor(RunDateM % (24 * 3600 * 1000) % (3600 * 1000) / (60 * 1000));
+        var RunSeconds = Math.round(RunDateM % (24 * 3600 * 1000) % (3600 * 1000) % (60 * 1000) / 1000);
+        var days = RunDays + "天" + RunHours + "时" + RunMinutes + "分" + RunSeconds + "秒";
+        document.getElementById(id).innerHTML = days;
+      }
+      ShowRunTime('days');
+      setInterval("ShowRunTime('days')", 1000);
+    </script>
+    
+    
     
     
     
