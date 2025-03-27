@@ -3,24 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://ssuchaa.xyz/categories/</loc>
-    <lastmod>2025-03-26T23:17:24-04:00</lastmod>
-  </url><url>
-    <loc>http://ssuchaa.xyz/tags/hugo/</loc>
-    <lastmod>2025-03-26T23:17:24-04:00</lastmod>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
   </url><url>
     <loc>http://ssuchaa.xyz/posts/</loc>
-    <lastmod>2025-03-26T23:17:24-04:00</lastmod>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
+  </url><url>
+    <loc>http://ssuchaa.xyz/tags/tag-1/</loc>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
+  </url><url>
+    <loc>http://ssuchaa.xyz/tags/tag-2/</loc>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
   </url><url>
     <loc>http://ssuchaa.xyz/tags/</loc>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
+  </url><url>
+    <loc>http://ssuchaa.xyz/posts/test-12.27.12-am/</loc>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
+  </url><url>
+    <loc>http://ssuchaa.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
+  </url><url>
+    <loc>http://ssuchaa.xyz/</loc>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
+  </url><url>
+    <loc>http://ssuchaa.xyz/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2025-03-27T00:24:05-04:00</lastmod>
+  </url><url>
+    <loc>http://ssuchaa.xyz/tags/hugo/</loc>
     <lastmod>2025-03-26T23:17:24-04:00</lastmod>
   </url><url>
     <loc>http://ssuchaa.xyz/categories/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2025-03-26T23:17:24-04:00</lastmod>
   </url><url>
     <loc>http://ssuchaa.xyz/posts/%E6%88%91%E6%B0%B8%E8%BF%9C%E8%AE%A8%E5%8E%8C%E6%9C%BA%E5%99%A8%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2025-03-26T23:17:24-04:00</lastmod>
-  </url><url>
-    <loc>http://ssuchaa.xyz/</loc>
     <lastmod>2025-03-26T23:17:24-04:00</lastmod>
   </url><url>
     <loc>http://ssuchaa.xyz/tags/%E6%8A%91%E9%83%81%E7%97%87/</loc>
@@ -30,9 +45,6 @@
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
     <loc>http://ssuchaa.xyz/posts/%E6%98%A5%E5%A4%A9%E5%83%8F%E9%87%8E%E7%8B%97%E4%B8%80%E6%A0%B7/</loc>
-    <lastmod>2025-03-19T12:03:40-04:00</lastmod>
-  </url><url>
-    <loc>http://ssuchaa.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-03-19T12:03:40-04:00</lastmod>
   </url><url>
     <loc>http://ssuchaa.xyz/tags/%E7%B2%BE%E7%A5%9E%E7%96%BE%E7%97%85/</loc>

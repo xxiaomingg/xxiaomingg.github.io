@@ -6,8 +6,22 @@
     <description>Recent content in Tags on 終身監禁</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 23:17:24 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 00:24:05 -0400</lastBuildDate>
     <atom:link href="http://ssuchaa.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tag 1</title>
+      <link>http://ssuchaa.xyz/tags/tag-1/</link>
+      <pubDate>Thu, 27 Mar 2025 00:24:05 -0400</pubDate>
+      <guid>http://ssuchaa.xyz/tags/tag-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag 2</title>
+      <link>http://ssuchaa.xyz/tags/tag-2/</link>
+      <pubDate>Thu, 27 Mar 2025 00:24:05 -0400</pubDate>
+      <guid>http://ssuchaa.xyz/tags/tag-2/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>http://ssuchaa.xyz/tags/hugo/</link>

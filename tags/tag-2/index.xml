@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag 2 on 終身監禁</title>
-    <link>http://localhost:1313/tags/tag-2/</link>
+    <link>http://ssuchaa.xyz/tags/tag-2/</link>
     <description>Recent content in Tag 2 on 終身監禁</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Mar 2025 11:44:35 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tag-2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Mar 2025 00:24:05 -0400</lastBuildDate>
+    <atom:link href="http://ssuchaa.xyz/tags/tag-2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tupian</title>
-      <link>http://localhost:1313/posts/tupian/</link>
-      <pubDate>Mon, 24 Mar 2025 11:44:35 -0400</pubDate>
-      <guid>http://localhost:1313/posts/tupian/</guid>
-      <description>到了周六，我换掉羽绒服，穿上一件我很喜欢的棕色毛毛外套，但还是太热了，公交站台上有人戴着亮粉色边框的太阳镜。阳光很强烈，风吹在脸上和闹着玩儿似的，完全是春天的感觉，与此同时我家门外的路旁还堆着半人高的雪。</description>
+      <title>Test</title>
+      <link>http://ssuchaa.xyz/posts/test-12.27.12-am/</link>
+      <pubDate>Thu, 27 Mar 2025 00:24:05 -0400</pubDate>
+      <guid>http://ssuchaa.xyz/posts/test-12.27.12-am/</guid>
+      <description>&lt;!-- more --&gt;&#xA;&lt;p&gt;test&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
